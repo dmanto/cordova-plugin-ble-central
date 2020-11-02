@@ -1,6 +1,6 @@
 # fork to fix BLE problem on Android 10
 
-see [Stack overflow answer](https://stackoverflow.com/questions/63501872/issue-with-the-cordova-plugin-ble-central)
+see [this Stack Overflow answer](https://stackoverflow.com/questions/63501872/issue-with-the-cordova-plugin-ble-central)
 
 1) delete ble-central plugin
 
@@ -10,7 +10,7 @@ $> cordova plugin rm cordova-plugin-ble-central
 2) add new forked plugin
 
 ```bash
-$> cordova plugin add git+https:////github.com/dmanto/cordova-plugin-ble-central.git
+$> cordova plugin add https://github.com/dmanto/cordova-plugin-ble-central.git
 ```
 
 # Bluetooth Low Energy (BLE) Central Plugin for Apache Cordova
